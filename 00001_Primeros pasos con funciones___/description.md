@@ -21,6 +21,35 @@ int main()
 	return 0; 
 }
 ```
+A continuación los mostramos una de las soluciones a las que se puede llegar.<br>
+
+``` C
+#include <stdio.h>
+void Ingresos();
+int Total(int RT, int R);
+int main() 
+{
+	Ingresos();
+	return 0; 
+}
+void Ingresos()
+{
+	int R = 0, RT = 0, I = 0;
+	for (I=0;I<5;I++)
+	{
+		printf("Ingrese el valor de la resistencia %d\n", I+1);
+		scanf("%d",&R);
+		RT = Total (RT, R);
+	}
+	printf("La suma de las %d resistencias es %d\n", I, RT);
+}
+int Total(int RT, int R)
+{
+	return RT+R;
+}
+```
+
+
 
 
 
