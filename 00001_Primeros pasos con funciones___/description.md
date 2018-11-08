@@ -21,7 +21,7 @@ int main()
 	return 0; 
 }
 ```
-A continuación los mostramos una de las soluciones a las que se puede llegar.<br>
+A continuación los mostramos una de las soluciones a las que se puede llegar utilizando dos tipos de funciones distintas que explicaremos más adelante.<br>
 
 ``` C
 #include <stdio.h>
@@ -48,6 +48,8 @@ int Total(int RT, int R)
 	return RT+R;
 }
 ```
+
+
 
 
 
