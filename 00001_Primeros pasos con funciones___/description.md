@@ -48,11 +48,31 @@ int Total(int RT, int R)
 	return RT+R; // 4.-
 }
 ```
->1. **void Ingresos();**<br> Esta es una funcion que no devuelve valor alguno, de tipo **VOID** y no recibe argumentos.<br>
+>1. **void Ingresos();**<br> Es una función de tipo entero, de tipo **VOID** y sin parámetros<br>
+1. **int Total(int RT, int R);**<br> Es una función de tipo entero, **INT**,  que **devuelve valor y recibe parámetros**. Recordemos que la  función debe ser del mismo tipo que el valor que devuelve. <br>
+1. **RT = Total (RT, R);**<br> En este punto vemos una llamada a la función donde se expresa entre paréntesis aquellos argumentos necesarios para su funcionamiento. La variable RT acumula lo que la función devuelve para poder obtener la suma total de  las resistencias. <br> En la llamada **NO** se indica ni el tipo de función ni el tipo de sus argumentos.<br>
+1. **return RT+R;**<br>En esta línea simplemente devolvemos, regresamos o retornamos el valor de la suma de los argumentos de la función. 
 
-Los parámetros o argumentos de una función son aquellos valores que recibe desde la función de donde es llamada y se encuentran expresados entre los paréntesis luego del tipo y nombre que le asignamos. Tenemos que tener en cuenta que en la llamada a no se indica tipo y en la función sí. Esto se debe a que en la llamada hablamos de variables ya declaradas con valor asignado y en la función son nuevas variables de las que debemos saber el tipo de valor que se espera. Debemos resaltar que los argumentos de la función deben ser solo aquellos valores necesarios para su funcionamiento y que no pueden ser calculados dentro de ella. Todos aquellos valores que se generan dentro de la misma y se obtienen mediante operaciones deben ser variables de tipo local
+Los parámetros o argumentos de una función son aquellos valores que recibe desde la función de donde es llamada y se encuentran expresados entre los paréntesis luego del tipo y nombre que le asignamos. Tenemos que tener en cuenta que en la llamada **NO** se indica tipo y en la función sí. Esto se debe a que en la llamada hablamos de variables ya declaradas con valor asignado y en la función son nuevas variables de las que debemos saber el tipo de valor que se espera. Debemos resaltar que los argumentos de la función deben ser solo aquellos valores necesarios para su funcionamiento y que no pueden ser calculados dentro de ella. Todos aquellos valores que se generan dentro de la misma y se obtienen mediante operaciones deben ser variables de tipo local.<br>
+A continuación te proponemos que intentes implementar la siguiente función donde se genera un número aleatorio, recibiendo como argumentos el límite inferior y el superior (los extremos del intervalo de números a generar).
 
->2. **int Total(int RT, int R);**<br> Esta es una funcion que no devuelve valor alguno, de tipo **VOID** y no recibe argumentos.<br>
+``` c
+int aleatorio(int inf, int sup)
+{
+	return inf+(rand()%(sup-inf+1));
+}
+```
+> Recordá que tenés que incluir las siguientes lineas:
+
+``` c
+#include <time.h> // En el encabezado junto a las otras librerías.
+srand(time(NULL)); // Solo una vez en la función principal para que los números calculados sean siempre distintos.
+```
+
+
+
+
+
 
 
 
