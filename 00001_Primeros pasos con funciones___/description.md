@@ -68,6 +68,7 @@ int aleatorio(int inf, int sup)
 #include <time.h> // En el encabezado junto a las otras librerías.
 srand(time(NULL)); // Solo una vez en la función principal para que los números calculados sean siempre distintos.
 ```
+¿Te animás?
 
 
 
