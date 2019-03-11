@@ -1,8 +1,9 @@
 ---
-name: Funciones
+name: Funciones, la amenaza fantasma
 locale: es
 type: learning
 beta: false
+teacher_info: ''
 language: c
 id_format: "%05d"
 order:
