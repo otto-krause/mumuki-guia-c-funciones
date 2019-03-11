@@ -1,0 +1,1 @@
+Crea la función `producto` que reciba dos números por parámetro y retorne su producto, calculandolo a través de sumas sucesivas.
