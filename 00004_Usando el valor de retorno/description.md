@@ -31,7 +31,7 @@ int dobleDeLaSuma(int a, int b)
 
 En este codigo observamos como se utiliza el valor de retorno de una funcion para realizar un calculo y luego devolver su valor.
 
-Conclusiones:
-El valor de retorno de una funcion puede almacenarse.
-El valor de retorno de una funcion puede usarse para realizar calculos.
-El valor de retorno de una funcion puede retornarse o usarse en otra funcion.
+> **Conclusiones:**<br>
+1. El valor de retorno de una funcion puede almacenarse.<br>
+2. El valor de retorno de una funcion puede usarse para realizar calculos.<br>
+3. El valor de retorno de una funcion puede retornarse o usarse en otra funcion.<br>
