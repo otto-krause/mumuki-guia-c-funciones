@@ -1,1 +1,1 @@
-Seguimos! Crea la función `doble`, que recibe un numero por parámetro y devuelve su doble.
+Seguimos! Crea la función `doble`, que recibe un número por parámetro y devuelve su doble.

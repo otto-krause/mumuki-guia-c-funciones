@@ -1,21 +1,21 @@
-Las funciones que devuelven un valor funcionan como un resultado comun y corriente!
+Las funciones que devuelven un valor funcionan como un número común y corriente!
 
-Si tenemos la siguiente linea de codigo:
+Si tenemos la siguiente línea de código:
 
 ``` c
 int a = 4;
 ```
 
-El valor almacenado en la variable `a` es de 4, que pasa si tenemos la siguiente linea de codigo?
+El valor almacenado en la variable `a` es de 4, que pasa si tenemos la siguiente línea de código?
 
 ``` c
 int b = siguiente(3);
 ```
 
-Cuando se ejecuta esa linea de codigo, se llama a la funcion siguiente con el valor 3 como parametro, al terminar su procesamiento la misma va a retornar el valor 4, y luego ese valor se almacenara en la variable `b`.
+Cuando se ejecuta esa línea de código, se llama a la funcion siguiente con el valor 3 como parámetro, al terminar su procesamiento la misma va a retornar el valor 4, y luego ese valor se almacenara en la variable `b`.
 Por lo tanto el valor contenido en la variable `b` será de 4.
 
-No es el unico lugar donde se puede utilizar el valor de retorno de una funcion, veamos el siguiente ejemplo:
+No es el único lugar donde se puede utilizar el valor de retorno de una función, veamos el siguiente ejemplo:
 
 ``` c
 int suma(int a, int b)
@@ -29,7 +29,7 @@ int dobleDeLaSuma(int a, int b)
 }
 ```
 
-En este codigo observamos como se utiliza el valor de retorno de una funcion para realizar un calculo y luego devolver su valor.
+En este código observamos como se utiliza el valor de retorno de una función para realizar un cálculo y luego devolver su valor.
 
 > **Conclusiones:**<br>
 1. El valor de retorno de una funcion puede almacenarse.<br>
