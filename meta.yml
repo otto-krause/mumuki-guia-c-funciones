@@ -3,10 +3,10 @@ name: Funciones
 locale: es
 type: learning
 beta: false
-teacher_info: ''
 language: c
 id_format: "%05d"
 order:
 - 1
 - 2
 - 3
+private: false
