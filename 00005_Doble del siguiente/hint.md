@@ -1,0 +1,1 @@
+Si te lo estás preguntando, sí, el valor de retorno de una función también se puede pasar por parametro

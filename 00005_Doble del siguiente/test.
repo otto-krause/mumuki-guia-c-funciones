@@ -2,6 +2,6 @@ describe ("Prueba de función")
 {
   it ("el siguiente de 5 es 6") 
   {
-    should_int(doble(5)) be equal to(10);
+    should_int(dobleDelSiguiente(5)) be equal to(12);
   } end
 } end
