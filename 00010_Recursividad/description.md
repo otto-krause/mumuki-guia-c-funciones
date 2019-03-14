@@ -18,4 +18,4 @@ void imprimirNumeros(int num)
 Esta función que acabamos de crear imprime numeros desde el numero que se pasa por parámetro hasta llegar a cero, por ejemplo si hicieramos en la main el llamado a la funcion de esta forma:
 > imprimirNumeros(50);
 
-Se imprimirian los numeros desde 50 hasta 1. No nos crees? Probalo en la consola!
+Se imprimirian los numeros desde 50 hasta 1.<br> No nos crees? Probalo en la consola!
