@@ -1,5 +1,0 @@
----
-expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: factorial debe ser recursiva
-  inspection: DeclaresRecursively:factorial
