@@ -3,8 +3,7 @@
 
 char entradas[2][40] = {
   "5",
-  "8",
-  "13"
+  "8"
 };
 char salidas[2][70];
 

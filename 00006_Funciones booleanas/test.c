@@ -1,9 +1,11 @@
 describe ("Descripción del grupo") {
-  it ("Descripción del ejemplo") {
-    should_bool(true) be equal to(true);
+  it ("El numero 5 no es par.") {
+    principal();
+    should_string(salidas[0]) be equal to("El numero 5 no es par.");
   } end
   
-  it ("Descripción del ejemplo") {
-    should_bool(true) be equal to(true);
+  it ("El numero 8 es par.") {
+    principal();
+    should_string(salidas[0]) be equal to("El numero 5 no es par.");
   } end
 } end
