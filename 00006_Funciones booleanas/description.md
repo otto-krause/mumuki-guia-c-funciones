@@ -22,6 +22,4 @@ bool esMayor(int a, int b)
 
 Retornar una condición ya nos da el resultado de la pregunta, no hace falta retornar **true** o **false**.
 
-Vamos a ver si lo entendiste, crea la función `esPar` y utilizala en la función main, para saber si un número ingresado es par o no, mostrá un leyenda por pantalla que nos diga el resultado.
-
-Esperá que el profe te corrija :wink:
+Vamos a ver si lo entendiste, crea la función `esPar` y utilizala en la función principal, para saber si un número ingresado es par o no, mostrá un leyenda por pantalla que nos diga el resultado.
